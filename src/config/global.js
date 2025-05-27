@@ -144,28 +144,200 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema:
+        ' 3.3. Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+      referencia:
+        'Escuela al revés UNLINE, (2000). Análisis de datos para la toma de decisiones con Excel. [Video]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Ds-cTahAN2A ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        '3.3. Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+      referencia:
+        'Learnit Training. (2023). Tutorial para principiantes de Word 2021. [Video]. YouTube.',
+      tipo: 'Video ',
+      link: 'https://www.youtube.com/watch?v=7hPcdNAS0v4',
+    },
+    {
+      tema:
+        '3.3. Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+      referencia:
+        'Learnit Training. (2023). Tutorial para principiantes de Excel 2021. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bF31VEFvMmY ',
+    },
+    {
+      tema:
+        '3.3. Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+      referencia:
+        'Learnit Training. (2023). Tutorial de PowerPoint 2021 para principiantes. [Video]. YouTube.',
+      tipo: 'Video ',
+      link: 'https://www.youtube.com/watch?v=VODDnOHko7o',
+    },
+    {
+      tema: '3.5. Herramientas de trabajo colaborativo',
+      referencia:
+        'EducaTIC. (2022). Tutorial Trello actualizado 2022. [Video]. YouTube.',
+      tipo: 'Video ',
+      link: 'https://www.youtube.com/watch?v=sZd7uUPigk8',
+    },
+    {
+      tema: '5. Mejora continua',
+      referencia: 'CertCampus. (2017). ITIL Ciclo de vida. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qLSk1Ctl51I',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'CAD',
+      significado:
+        'sigla referente al Diseño Asistido por Computador. Son herramientas para computadores que permiten crear, modificar, analizar y optimizar diseños.',
+    },
+    {
+      termino: 'CPU',
+      significado:
+        'sigla de la expresión inglesa Central Processing Unit (unidad central de proceso), que es la parte de una computadora en la que se encuentran los elementos que sirven para procesar datos.',
+    },
+    {
+      termino: '<em>Hardware</em>',
+      significado:
+        'conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información, por medio de computadoras.',
+    },
+    {
+      termino: 'Informática',
+      significado:
+        'conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información por medio de computadoras.',
+    },
+    {
+      termino: 'ITIL',
+      significado:
+        'sigla referente a la Information Technology Infrastructure Library. Corresponde a una metodología de gestión que propone una serie de prácticas estandarizadas, que ayudan a mejorar la prestación de un servicio, reorganizando la manera que tiene la empresa de trabajar y en particular, la del departamento de tecnologías de información.',
+    },
+    {
+      termino: 'LibreOffice',
+      significado:
+        'es un paquete de software de oficina libre y de código abierto desarrollado por <em>The Document Foundation</em>.',
+    },
+    {
+      termino: 'Microsoft',
+      significado:
+        'es una compañía tecnológica multinacional con sede en Redmond, Washington, EE.UU. Microsoft es el acrónimo de <em>microcomputer y software</em>.',
+    },
+    {
+      termino: 'Ofimática',
+      significado:
+        'automatización, mediante sistemas electrónicos, de las comunicaciones y procesos administrativos en las oficinas.',
+    },
+    {
+      termino: 'OpenOffice',
+      significado:
+        'es una suite ofimática libre, de código abierto, que incluye procesador de textos, hoja de cálculo, presentaciones, herramientas para el dibujo vectorial y base de datos.',
+    },
+    {
+      termino: 'Periférico',
+      significado:
+        'aparato auxiliar e independiente conectado a la unidad central de una computadora.',
+    },
+    {
+      termino: 'RAM',
+      significado:
+        'sigla referente a Random Access Memory (memoria de acceso aleatorio). Memoria principal de la computadora, donde residen programas y datos, sobre la que se pueden efectuar operaciones de lectura y escritura.',
+    },
+    {
+      termino: 'Sistema operativo',
+      significado:
+        'el conjunto de programas informáticos que permite la administración eficaz de los recursos de una computadora, es conocido como sistema operativo o software de sistema. Estos programas, comienzan a trabajar apenas se enciende el equipo, ya que gestionan el hardware desde los niveles más básicos y permiten además la interacción con el usuario.',
+    },
+    {
+      termino: '<em>Software</em>',
+      significado:
+        'conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
+    },
+    {
+      termino: 'TIC',
+      significado:
+        'son el conjunto de tecnologías desarrolladas en la actualidad para una información y comunicación más eficiente, las cuales han modificado tanto la forma de acceder al conocimiento, como las relaciones humanas.',
+    },
+    {
+      termino: 'WWW',
+      significado:
+        'son las iniciales que identifican a la expresión inglesa World Wide Web, el sistema de documentos de hipertexto que se encuentran enlazados entre sí y a los que se accede por medio de internet. A través de un software conocido como navegador, los usuarios pueden visualizar diversos sitios web (los cuales contienen texto, imágenes, videos y otros contenidos multimedia) y navegar, a través de ellos mediante los hipervínculos.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Andrade, A. M., Del Río, C. A. & Alvear, D. L. (2019). Estudio de Tiempos y Movimientos para Incrementar la Eficiencia en una Empresa de Producción de Calzado. A Study on Time and Motion to Increase the Efficiency of a Shoe Manufacturing Company. Información Tecnológica, 30(3), 83–94.',
+      link: 'https://doi.org/10.4067/S0718-07642019000300083',
+    },
+    {
+      referencia:
+        'Carmona Romera, G. (2017). Sistema operativo, búsqueda de información: Internet - Intranet y correo electrónico. IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Eíto Brun, R. (2014). Gestión de contenidos (17 edición). Universitat Oberta de Catalunya. Editorial UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Española, R. A. & Madrid, E. (1970). Diccionario de la lengua española (19 edición). Espasa-Calpe.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fresno Chávez, C. (2018). ¿Cómo funciona Internet? El Cid Editor.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gaskin, S. (2014). GO! Microsoft Word 2013 (1 edición). Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gómez de Silva Garza, A. & Ania Briseño, I. (2008). Software (pp. 23–44). Cengage Learning.',
+      link:
+        'https://link.gale.com/apps/doc/CX3004400004/GVRL?u=sena&sid=GVRL&xid=d8990326',
+    },
+    {
+      referencia:
+        'Ibarra Sixto, J. I. (2013). Manual sistema operativo, búsqueda de la información: Internet/intranet y correo electrónico. Editorial CEP.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ladrón de Guevara, M. A. (2018). Sistema operativo, búsqueda de la información: internet/intranet y correo electrónico UF0319 (2 edición). Editorial Tutor Formación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mamani, O., Arohuanca, M., Mamani, W., Quiñonez, C., Muñoz, M. & Pocohualca, N. (s.f.). Auditoría informática. In Informática (pp. 1–6).',
+      link: '',
+    },
+    {
+      referencia:
+        'Naranjo González, M. R. (2010). Manual: ofimática básica para formación continua. Formación para el empleo. Editorial CEP.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicetonic. (2019). 8. ITIL, Mejora continua del servicio.',
+      link:
+        'https://www.servicetonic.com/es/itil/8-itil-mejora-continua-del-servicio',
+    },
+    {
+      referencia:
+        'Valentín López, G.M. (2015). Ofimática. Editorial CEP, S. L.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vergara, P. (2005). Optimización de Procesos Industriales y Control de Calidad. Ediciones Universidad Tecnológica.',
+      link: '',
     },
   ],
   creditos: [
