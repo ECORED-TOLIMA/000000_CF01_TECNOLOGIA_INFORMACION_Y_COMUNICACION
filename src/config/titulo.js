@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Tecnologías de la Información y la Comunicación (TIC)'

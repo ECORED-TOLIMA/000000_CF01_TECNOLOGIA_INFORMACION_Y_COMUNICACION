@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre del recurso educativo',
-    descripcionCurso: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo:
+      'Tecnologías de la Información y la Comunicación (TIC)',
+    descripcionCurso:
+      'La sociedad ha avanzado a pasos agigantados, en la tecnología, en la ciencia y en muchas otras áreas del conocimiento. La informática se encarga del estudio del <em>hardware</em>, las redes de datos y el <em>software</em> necesario, para tratar la información de manera automática y el cual se convierte en factor primordial a la hora de gestionar la información y datos en formato digital.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,12 +33,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: '<em>Software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Clasificación',
             hash: 't_1_1',
           },
         ],
@@ -45,13 +47,53 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Internet',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Ofimática',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Introducción a la ofimática',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Funcionalidad de los sistemas operativos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Motores de búsqueda, páginas sociales',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Herramientas de trabajo colaborativo',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Evaluación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Mejora continua',
         desarrolloContenidos: true,
       },
     ],

@@ -1,22 +1,31 @@
 .banner-principal-decorativo
-  &-1
+  &-2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    top: 70%
+    right: 15%
+    width: 25%
+  &-1
+    animation: rotacion1 3.6s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 70%
+    right: 75%
+
+@keyframes rotacion1 
+  from 
+    transform: rotate(0deg)  
+  to 
+    transform: rotate(360deg)
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+.barra-avance__boton--regresar span
+  color: #ffffff !important
   
   
 .banner-principal .tarjeta
@@ -31,7 +40,43 @@
 figcaption
   font-weight: normal
 
-.BG03
-  background-color: #B5CCAD
+.tarjeta--gris
+  background-color: #F4E0F0
 
- 
+.BG01
+  background-color: #F4E0F0
+
+.tarjeta--BG02
+  background-color: #FFFFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.bloque-texto-g.color-secundario
+  background-color: #B4EEFF !important
+h3.col
+  color:#0720AC
+
+//pestañas TabsA
+.tabs-a__tab
+  background-color: #F4E0F0
+.tarjeta.color-acento-botones--borde
+    background-color: #D1FFF8
+    border: solid 1px #D1FFF8
+.cajon.color-primario
+  background-color: #E9EFFF
+
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/tema5/bgpasos.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG04
+  background-color: #FFFFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
