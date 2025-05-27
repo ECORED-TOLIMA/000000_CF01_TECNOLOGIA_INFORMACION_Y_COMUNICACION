@@ -75,8 +75,36 @@ h3.col
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
+  
+
 .tarjeta--BG04
   background-color: #FFFFFF !important
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+
+.tarjeta--BG05
+  background-color: #E9EFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+.tarjeta--BG06
+  background-color: #ECE0FF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+.tarjeta--tabla
+  background-color: #E9EFFF
+.tarjeta--tabla:nth-child(even)
+    background-color:#D1FFF8
