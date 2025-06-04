@@ -128,7 +128,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_01_12350004_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -218,7 +218,7 @@ export default {
     {
       termino: 'LibreOffice',
       significado:
-        'es un paquete de software de oficina libre y de código abierto desarrollado por <em>The Document Foundation</em>.',
+        'es un paquete de <em>software</em> de oficina libre y de código abierto desarrollado por <em>The Document Foundation</em>.',
     },
     {
       termino: 'Microsoft',
@@ -248,7 +248,7 @@ export default {
     {
       termino: 'Sistema operativo',
       significado:
-        'el conjunto de programas informáticos que permite la administración eficaz de los recursos de una computadora, es conocido como sistema operativo o software de sistema. Estos programas, comienzan a trabajar apenas se enciende el equipo, ya que gestionan el hardware desde los niveles más básicos y permiten además la interacción con el usuario.',
+        'el conjunto de programas informáticos que permite la administración eficaz de los recursos de una computadora, es conocido como sistema operativo o <em>software</em> de sistema. Estos programas, comienzan a trabajar apenas se enciende el equipo, ya que gestionan el <em>hardware</em> desde los niveles más básicos y permiten además la interacción con el usuario.',
     },
     {
       termino: '<em>Software</em>',
@@ -263,7 +263,7 @@ export default {
     {
       termino: 'WWW',
       significado:
-        'son las iniciales que identifican a la expresión inglesa World Wide Web, el sistema de documentos de hipertexto que se encuentran enlazados entre sí y a los que se accede por medio de internet. A través de un software conocido como navegador, los usuarios pueden visualizar diversos sitios web (los cuales contienen texto, imágenes, videos y otros contenidos multimedia) y navegar, a través de ellos mediante los hipervínculos.',
+        'son las iniciales que identifican a la expresión inglesa World Wide Web, el sistema de documentos de hipertexto que se encuentran enlazados entre sí y a los que se accede por medio de internet. A través de un <em>software</em> conocido como navegador, los usuarios pueden visualizar diversos sitios web (los cuales contienen texto, imágenes, videos y otros contenidos multimedia) y navegar, a través de ellos mediante los hipervínculos.',
     },
   ],
   referencias: [
@@ -299,7 +299,7 @@ export default {
     },
     {
       referencia:
-        'Gómez de Silva Garza, A. & Ania Briseño, I. (2008). Software (pp. 23–44). Cengage Learning.',
+        'Gómez de Silva Garza, A. & Ania Briseño, I. (2008). <em>Software</em> (pp. 23–44). <em>Cengage Learning</em>.',
       link:
         'https://link.gale.com/apps/doc/CX3004400004/GVRL?u=sena&sid=GVRL&xid=d8990326',
     },
@@ -361,14 +361,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Juan Carlos Camargo Solano',
-          cargo: 'Experta temática',
+          nombre: 'Ramiro E. Barrientos Gómez',
+          cargo: 'Experto temático',
           centro:
-            'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
-          nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluadora instruccional ',
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional ',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -382,22 +382,23 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador <em>Fullstack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -409,11 +410,6 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

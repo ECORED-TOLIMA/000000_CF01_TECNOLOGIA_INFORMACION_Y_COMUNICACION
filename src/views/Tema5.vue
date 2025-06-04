@@ -44,7 +44,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/img3.svg', alt='Texto que describa la imagen')
 
-      .col-lg-7
+      .col-lg-5
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -73,60 +73,66 @@
     p.mb-4 La norma ITIL, menciona los siguientes pasos que se deben tener en cuenta para su aplicación, los cuales son citados por Servicetonic (2019):
 
     .tarjeta--BG03.p-4.px-lg-5.mb-4
-      PasosB.color-acento-contenido.tarjeta.tarjeta--BG04.p-4
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Identificar la estrategia de mejora
-            p Antes de iniciar cualquier proceso de mejora, se debe tener claro qué es lo que se desea conseguir. Para eso pueden ser útiles las siguientes preguntas ¿Qué necesita el negocio? ¿Cómo los servicios TI pueden cubrir esas necesidades?
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img4.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Definir lo que se ha de medir
-            p Aquí se debe preguntar ¿Qué se debería medir? ¿Qué se puede medir?, y llevar a cabo un análisis de las carencias que han de conducir a un plan de métricas.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img5.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Obtener la información
-            p Normalmente la información se recoge en la fase de operación del servicio, mediante los elementos de monitorización definidos en la fase de diseño del servicio.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img6.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Procesar la información
-            p La información recogida en la monitorización, se procesa para obtener los indicadores definidos.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img7.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Analizar la información
-            p Se valida que el valor de los indicadores es el adecuado, para la consecución de los objetivos. Se estudian tendencias.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img8.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Presentar y utilizar la información
-            p La información se ha de formatear y comunicar a todos los actores clave, de forma que la puedan entender y les sirva para la toma de decisiones.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img9.png', alt='Texto que describa la imagen')
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            h4 Implementar la mejora
-            p La información obtenida se usa para definir qué se ha de corregir, optimizar o mejorar. Es decir, se establecen y priorizan las mejoras a implementar.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema5/img10.png', alt='Texto que describa la imagen')
+      .tarjeta.tarjeta--BG04.p-4.mb-5
+        PasosB.color-acento-botones
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Identificar la estrategia de mejora
+              p Antes de iniciar cualquier proceso de mejora, se debe tener claro qué es lo que se desea conseguir. Para eso pueden ser útiles las siguientes preguntas ¿Qué necesita el negocio? ¿Cómo los servicios TI pueden cubrir esas necesidades?
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img4.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Definir lo que se ha de medir
+              p Aquí se debe preguntar ¿Qué se debería medir? ¿Qué se puede medir?, y llevar a cabo un análisis de las carencias que han de conducir a un plan de métricas.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img5.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Obtener la información
+              p Normalmente la información se recoge en la fase de operación del servicio, mediante los elementos de monitorización definidos en la fase de diseño del servicio.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img6.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Procesar la información
+              p La información recogida en la monitorización, se procesa para obtener los indicadores definidos.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img7.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Analizar la información
+              p Se valida que el valor de los indicadores es el adecuado, para la consecución de los objetivos. Se estudian tendencias.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img8.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Presentar y utilizar la información
+              p La información se ha de formatear y comunicar a todos los actores clave, de forma que la puedan entender y les sirva para la toma de decisiones.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img9.png', alt='Texto que describa la imagen')
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Implementar la mejora
+              p La información obtenida se usa para definir qué se ha de corregir, optimizar o mejorar. Es decir, se establecen y priorizan las mejoras a implementar.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema5/img10.png', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-primario.p-4.mb-4
-          p Nota: para consultar más información acerca de la norma ITIL, se sugiere acceder al material complementario que abarca esta temática.
+        .cajon.color-primario.p-4
+          .row.justify-content-center
+            .col-lg-1.col-md-2.col-sm-6.mb-md-4.mb-sm-4
+              figure
+                img(src='@/assets/curso/temas/tema3/img19.svg', alt='Texto que describa la imagen')
+            .col-lg-11
+              p-mb-0 Nota: para consultar más información acerca de la norma ITIL, se sugiere acceder al material complementario que abarca esta temática.
 
 
 </template>

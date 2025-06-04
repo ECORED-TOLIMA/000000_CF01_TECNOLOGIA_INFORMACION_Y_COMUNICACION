@@ -21,18 +21,23 @@
             h3.col.ps-3.mb-0 Reportes
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-md-10.mb-md-4
+      .col-lg-4.col-md-8.mb-md-4
         figure
           img(src='@/assets/curso/temas/tema4/img2.png', alt="Imagen decorativa")
         
-      .col-lg-7
+      .col-lg-8
         p Según Española & Madrid (1970), un reporte puede ser un informe o una noticia. Este tipo de documento (que puede ser impreso, digital, audiovisual, etc.), tiene como objetivo presentar una información, normalmente compilada y estadística, que contextualice una situación o el resultado de un proyecto. En este sentido, las herramientas informáticas como por ejemplo procesadores de texto, presentaciones ejecutivas y las hojas electrónicas, facilitan la elaboración de textos, presentaciones con elementos multimediales, cuadros con fórmulas de todo tipo y gráficos estadísticos que permiten visualizar de una manera eficiente el resultado de un proyecto.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .mb-4.d-flex(data-aos="fade-right")
           .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #D1FFF8; border-radius: 15px;")
             img(src='@/assets/curso/temas/tema3/icono.svg' style="max-width: 32px; margin-left: -16px;")
             h3.col.ps-3.mb-0 Análisis informático
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        p En este punto, es importante el manejo de herramientas informáticas, como Excel, que permite realizar análisis informático, a través de procesos estadísticos, tales como, análisis de varianzas, coeficiente de correlación, estadística descriptiva, suavización exponencial, análisis de regresión, muestras e histogramas, entre otras.
+        p En otro aspecto, cuando se habla de auditoría, en especial de los sistemas, se deben mencionar como temas importantes, los siguientes: 
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-md-6.mb-md-4
         figure
@@ -43,15 +48,20 @@
             p Según Manani et al. (s.f.), “en primer lugar, se debe considerar como comunicación, la transferencia de información del emisor al receptor de manera que este la comprenda. El ruido es todo aquello que interfiere en una adecuada comunicación; no solamente los sonidos sino todo aquello que impida la adecuada comunicación”.
             p Por ejemplo, si en la casa una niña se encuentra jugando silenciosamente y otra persona se encuentra hablando en una conferencia o presentación, se considera ruido, debido a la distracción que genera la niña para el sistema.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Redundancia")
-            p Se le llama redundancia a toda aquella duplicidad que tiene el sistema. Los sistemas con redundancia son aquellos en los que se repiten los datos o hardware de carácter crítico para asegurarlos ante cualquier posible fallo que pueda surgir por su uso continuo. Sin embargo, se debe definir con claridad su estructura o funcionamiento, para no caer en duplicidades innecesarias de información, que terminen en inconsistencias.
-            p Como ejemplo, se tendría a una empresa utiliza un servidor con dos discos duros configurados en RAID 1 (mirroring).
+            p Se le llama redundancia a toda aquella duplicidad que tiene el sistema. Los sistemas con redundancia son aquellos en los que se repiten los datos o #[i hardware] de carácter crítico para asegurarlos ante cualquier posible fallo que pueda surgir por su uso continuo. Sin embargo, se debe definir con claridad su estructura o funcionamiento, para no caer en duplicidades innecesarias de información, que terminen en inconsistencias.
+            p Como ejemplo, se tendría a una empresa utiliza un servidor con dos discos duros configurados en RAID 1 (#[i mirroring]).
           .tarjeta.color-acento-botones--borde.p-4(titulo="Entropía")
             p Según Española & Madrid (1970), es definida como “Magnitud termodinámica que mide la parte de la energía no utilizable para realizar trabajo y que se expresa como el cociente entre el calor cedido por un cuerpo y su temperatura absoluta”. 
             p En otras palabras, la entropía hace referencia a las fallas o inconvenientes de los elementos del sistema, que pueden afectar el funcionamiento de este. Si se toma como ejemplo un sistema de producción de una empresa industrial, la entropía se podría presentar por fallas en las máquinas, por falta de mantenimiento, insumos de mala calidad u operarios sin capacitación para el manejo de su puesto de trabajo.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
-        .cajon.color-primario.p-4.mb-4
-          p Todo lo anterior, se debe tener en cuenta a la hora de analizar los reportes entregados, en cuanto al análisis del ruido, es decir, las interferencias; la redundancia que se pueda dar en los reportes y la entropía, hablando en términos de la energía desaprovechada.
+        .cajon.color-primario.p-4
+          .row.justify-content-center
+            .col-lg-1.col-md-2.col-sm-6.mb-md-4.mb-sm-4
+              figure
+                img(src='@/assets/curso/temas/tema3/img19.svg', alt='Texto que describa la imagen')
+            .col-lg-11
+              p.mb-0 Todo lo anterior, se debe tener en cuenta a la hora de analizar los reportes entregados, en cuanto al análisis del ruido, es decir, las interferencias; la redundancia que se pueda dar en los reportes y la entropía, hablando en términos de la energía desaprovechada.
 </template>
 
 <script>

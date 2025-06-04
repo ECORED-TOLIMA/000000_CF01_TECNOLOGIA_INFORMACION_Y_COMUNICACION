@@ -34,8 +34,6 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
 
 figcaption
   font-weight: normal
@@ -51,12 +49,20 @@ figcaption
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
-
+.bgblanco
+  background-color: white
 .bloque-texto-g.color-secundario
   background-color: #B4EEFF !important
 h3.col
   color:#0720AC
 
+.BG07
+  background: #FFFFFF
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(238, 240, 254, 1) 42%, rgba(238, 240, 254, 1) 64%, rgba(255, 255, 255, 1) 100%)
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 //pestañas TabsA
 .tabs-a__tab
   background-color: #F4E0F0
@@ -108,3 +114,14 @@ h3.col
   background-color: #E9EFFF
 .tarjeta--tabla:nth-child(even)
     background-color:#D1FFF8
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #71FFE9
+  background-color: #71FFE9
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #a50085
+  background-color: #a50085
+  color: white !important
+.pasos-b__header__item__dot i
+  color: black

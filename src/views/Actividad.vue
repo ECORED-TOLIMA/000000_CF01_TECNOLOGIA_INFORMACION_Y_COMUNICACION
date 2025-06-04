@@ -303,7 +303,7 @@ export default {
         {
           id: 13,
           texto:
-            'El sistema operativo se encarga únicamente de ejecutar programas, pero no interviene en la gestión del hardware.',
+            'El sistema operativo se encarga únicamente de ejecutar programas, pero no interviene en la gestión del <em>hardware</em>.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
