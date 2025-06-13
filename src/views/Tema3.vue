@@ -164,7 +164,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img19.svg', alt='Texto que describa la imagen')
             .col-lg-11
-              p.mb-0 Nota: se sugiere la consulta de los materiales complementarios sobre el uso de los #[i softwares] Microsoft Office (como procesador de texto), Microsoft Excel (hojas de cálculo) y Microsoft PowerPoint (para la presentación con diapositivas).
+              p.mb-0 #[b Nota]: se sugiere la consulta de los tutoriales que se encuentran en los materiales complementarios sobre el uso de los #[i software] Microsoft Word (como procesador de texto), Microsoft Excel (hojas de cálculo) y Microsoft PowerPoint (para la presentación con diapositivas).
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4	Motores de búsqueda, páginas sociales
@@ -177,13 +177,13 @@
             figure
               img(src='@/assets/curso/temas/tema3/img12.svg', alt='Texto que describa la imagen')
         h4.text-center Netscape
-        p.text-center Con aparición en el año 1994.
+        p.text-center Con aparición en el año 1994. El buscador no es funcional a la fecha.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-lg-3.col-md-6.col-sm-6
             figure
               img(src='@/assets/curso/temas/tema3/img13.svg', alt='Texto que describa la imagen')
-        h2.text-center Google
+        h4.text-center Google
         p.text-center Aparece en el año 1998, convirtiéndose en uno de los más populares.
     p Asociado a estos cambios, entre los años 2002 y 2004, surgen las redes sociales o también conocidas como páginas sociales, que permiten el desarrollo del concepto de aldea virtual. Entre las redes sociales más conocidas, a lo largo de la historia, se tienen My Space, Friendster, Facebook y, hoy en día, Instagram.
     p.mb-5 Para conocer más sobre la temática, se sugiere consultar los siguientes libros: 
@@ -221,7 +221,7 @@
       h2 3.5	Herramientas de trabajo colaborativo
     p.mb-5 Con el avance de las Tecnologías de la Información y la Comunicación (TIC), han aparecido una gran cantidad de herramientas en la web, que se pueden clasificar en diferentes ejes temáticos, tales como:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.tarjeta--BG06.p-4
+      .col-lg-10.tarjeta.tarjeta--BG06.p-4
         .row.justify-content-center.align-items-center
           .col-lg-4.col-md-8.col-sm-6.mb-md-4.col-sm-4
             figure

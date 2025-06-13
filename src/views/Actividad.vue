@@ -188,7 +188,7 @@ export default {
         {
           id: 8,
           texto:
-            'Android, iOS y Windows 11 son versiones recientes de sistemas operativos que forman parte del <em>software</em> de sistema.',
+            'Android, iOS y Windows 11 funcionan en equipos móviles, lo cual hace que se tenga un mayor rendimiento en los dispositivos.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

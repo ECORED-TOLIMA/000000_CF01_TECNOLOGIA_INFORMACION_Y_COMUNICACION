@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-lg-1.order-2
         .cajon-b.abajo-derecha.color-primario.p-3.mb-5
-          p Antes de definir internet, es importante mencionar ¿Cómo surgió internet?, es decir contar su historia, la cual “comienza a finales de los años 60 en Estados Unidos y se relaciona con un proyecto desarrollado por la Agencia de Proyectos de Investigación Avanzados (ARPA) y el Departamento de Defensa estadounidense, que definieron el protocolo TC/IP con la finalidad de conectar ordenadores para facilitar trabajos sobre investigación” (Valentín, 2015).
+          p Antes de definir internet, es importante mencionar ¿Cómo surgió internet?, es decir contar su historia, la cual “comienza a finales de los años 60 en Estados Unidos y se relaciona con un proyecto desarrollado por la Agencia de Proyectos de Investigación Avanzados (ARPA) y el Departamento de Defensa estadounidense, que definieron el protocolo TCP/IP con la finalidad de conectar ordenadores para facilitar trabajos sobre investigación” (Valentín, 2015).
           p.mb-0 Partiendo de lo anterior, a continuación, se da una contextualización más detallada del surgimiento de esta poderosa herramienta:
         
       .col-lg-3.col-md-6.col-sm-6.mb-md-4.order-lg-2.order-1
@@ -93,14 +93,14 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img12.png', alt='Texto que describa la imagen')
             .col-lg-8.mb-4.mb-lg-0
-              h5 2010s 
+              h5 2010
               p Crecimiento de la nube, el streaming, el e-commerce y las plataformas colaborativas como Google Drive y Zoom.
           .row(titulo="12")
             .col-lg-2.col-md-4.col-sm-6.mb-md-4.mb-sm-4
               figure
                 img(src='@/assets/curso/temas/tema2/img13.png', alt='Texto que describa la imagen')
             .col-lg-8.mb-4.mb-lg-0
-              h5 2020s 
+              h5 2020
               p Avances en 5G, IA (inteligencia artificial), IoT (internet de las cosas) y expansión global del acceso a internet.
     
     p.mb-4 Ahora se puede responder la pregunta, ¿Qué es la internet?, son “ordenadores conectados entre sí, a través de redes o sistemas de comunicación que interconectan distintos tipos de dispositivos, con la finalidad de compartir información y ofrecer distintos servicios, tales como correo electrónico, transferencia de ficheros vía FTP o acceso a la World Wide Web” (Valentín, 2015).

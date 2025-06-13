@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Tecnologías de la Información y la Comunicación (TIC)',
     descripcionCurso:
-      'La sociedad ha avanzado a pasos agigantados, en la tecnología, en la ciencia y en muchas otras áreas del conocimiento. La informática se encarga del estudio del <em>hardware</em>, las redes de datos y el <em>software</em> necesario, para tratar la información de manera automática y el cual se convierte en factor primordial a la hora de gestionar la información y datos en formato digital.',
+      'La sociedad ha avanzado a pasos agigantados, en la tecnología, en la ciencia y en muchas otras áreas del conocimiento. La informática se encarga del estudio del <em>hardware</em>, las redes de datos y el <em>software</em> necesario, para tratar la información de manera automática, lo cual se convierte en factor primordial a la hora de gestionar la información y datos en formato digital.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -300,8 +300,7 @@ export default {
     {
       referencia:
         'Gómez de Silva Garza, A. & Ania Briseño, I. (2008). <em>Software</em> (pp. 23–44). <em>Cengage Learning</em>.',
-      link:
-        'https://link.gale.com/apps/doc/CX3004400004/GVRL?u=sena&sid=GVRL&xid=d8990326',
+      link: '',
     },
     {
       referencia:
@@ -338,6 +337,12 @@ export default {
       referencia:
         'Vergara, P. (2005). Optimización de Procesos Industriales y Control de Calidad. Ediciones Universidad Tecnológica.',
       link: '',
+    },
+    {
+      referencia:
+        'Grupo Bancolombia. (2018). 10 herramientas de trabajo colaborativo para tu empresa.',
+      link:
+        'https://www.bancolombia.com/negocios/actualizate/tendencias/herramientas-trabajo-colaborativo ',
     },
   ],
   creditos: [
