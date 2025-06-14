@@ -14,7 +14,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p La mejora continua en la empresa, es una técnica que se utiliza para la gestión de procesos de negocio, centrados en la continua necesidad de revisar los procesos en busca de posibles problemas, como obstáculos y retrasos, para resolverlos y lograr una mayor eficiencia y productividad de las operaciones.
+        p Consiste en un proceso constante de evaluación y optimización de actividades, métodos, productos o servicios con el objetivo de aumentar la eficiencia, la calidad y la satisfacción de los usuarios o clientes. Implica revisar regularmente lo que se hace, identificar posibles fallos o áreas de mejora, y aplicar cambios progresivos que generen resultados positivos a largo plazo. Es una práctica muy utilizada en organizaciones, empresas y entornos educativos para adaptarse a los cambios, innovar y mantener la competitividad.
     
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12

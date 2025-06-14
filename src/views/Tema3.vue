@@ -86,7 +86,7 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema3/img5.svg' alt="Imagen decorativa")
-        h5.text-center La memoria principal (RAM)
+        h5.text-center Distintos dispositivos de almacenamiento primario (RAM, ROM, CACHE)
         p.text-center De lectura y escritura. Gestiona su ocupación y asignación para cada proceso.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -134,14 +134,15 @@
                 i.fas.fa-file-code
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3	Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos
+      h2 3.3	Herramientas ofimáticas
     
     .bloque-texto-g.bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img9.png')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 Existen herramientas ofimáticas como procesadores de texto, hojas de cálculo, presentaciones ejecutivas y gestores de base de datos muy utilizadas por las empresas de la confección, para optimizar la gestión de la información y los datos mejorando la productividad. Para su estudio se recomienda la metodología de trabajo de la autora María Remedios Naranjo González, enfocada en procesos de trabajo con énfasis en la formación para el empleo.
+        p.mb-0 Las herramientas ofimáticas son un conjunto de programas, aplicaciones y servicios digitales diseñados para facilitar, automatizar y optimizar las tareas administrativas, productivas y de comunicación en entornos laborales, académicos y personales. Estas herramientas permiten crear, editar, organizar, compartir y almacenar información digital de manera eficiente, contribuyendo a mejorar la productividad, la colaboración y la gestión de la información. Para su estudio se recomienda la metodología de trabajo de la autora María Remedios Naranjo González, enfocada en procesos de trabajo con énfasis en la formación para el empleo.
+
 
     .tarjeta.color-adicional-2.BG01.p-3.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center

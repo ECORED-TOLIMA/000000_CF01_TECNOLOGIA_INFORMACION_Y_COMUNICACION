@@ -112,9 +112,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-sm-0.mb-4
               h4 Recurso electrónico
-              p Para conocer más sobre la temática, se sugiere consultar el libro: Valentín López, G. M. (2015). Ofimática. Editorial CEP. En dicho libro, acceder a las páginas 61-71.
+              p Para conocer más sobre la temática, se sugiere consultar el artículo: Fernández Muerza, Á. (2022). Influencia y evolución de Internet en la comunicación de la ciencia y sus fuentes. Fonseca, Journal of Communication, (25), 5–22.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB51049&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="('https://revistas.usal.es/cuatro/index.php/2172-9077/article/view/29539/28885')" target="_blank")
                 span Enlace web
                 i.fas.fa-file-code
 

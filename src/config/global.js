@@ -68,8 +68,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo:
-              'Herramientas ofimáticas: procesador de texto, hoja de cálculo, presentación de diapositivas, gestores de bases de datos',
+            titulo: 'Herramientas ofimáticas',
             hash: 't_3_3',
           },
           {
@@ -343,6 +342,12 @@ export default {
         'Grupo Bancolombia. (2018). 10 herramientas de trabajo colaborativo para tu empresa.',
       link:
         'https://www.bancolombia.com/negocios/actualizate/tendencias/herramientas-trabajo-colaborativo ',
+    },
+    {
+      referencia:
+        'Fernández Muerza, Á. (2022). Influencia y evolución de Internet en la comunicación de la ciencia y sus fuentes. Fonseca, Journal of Communication, (25), 5–22.',
+      link:
+        'https://revistas.usal.es/cuatro/index.php/2172-9077/article/view/29539/28885',
     },
   ],
   creditos: [
