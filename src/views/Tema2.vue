@@ -93,14 +93,14 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img12.png', alt='Texto que describa la imagen')
             .col-lg-8.mb-4.mb-lg-0
-              h5 2010
-              p Crecimiento de la nube, el streaming, el e-commerce y las plataformas colaborativas como Google Drive y Zoom.
+              h5 2010 - 2019
+              p Crecimiento de la nube, el #[i streaming], el #[i e-commerce] y las plataformas colaborativas como Google Drive y Zoom.
           .row(titulo="12")
             .col-lg-2.col-md-4.col-sm-6.mb-md-4.mb-sm-4
               figure
                 img(src='@/assets/curso/temas/tema2/img13.png', alt='Texto que describa la imagen')
             .col-lg-8.mb-4.mb-lg-0
-              h5 2020
+              h5 2020 - 2025
               p Avances en 5G, IA (inteligencia artificial), IoT (internet de las cosas) y expansión global del acceso a internet.
     
     p.mb-4 Ahora se puede responder la pregunta, ¿Qué es la internet?, son “ordenadores conectados entre sí, a través de redes o sistemas de comunicación que interconectan distintos tipos de dispositivos, con la finalidad de compartir información y ofrecer distintos servicios, tales como correo electrónico, transferencia de ficheros vía FTP o acceso a la World Wide Web” (Valentín, 2015).

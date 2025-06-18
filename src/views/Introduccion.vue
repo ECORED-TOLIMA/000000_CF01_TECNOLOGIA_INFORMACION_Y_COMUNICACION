@@ -17,7 +17,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1493" height="840" src="https://www.youtube.com/embed/B2iVQeWT4s8" title="Tecnologías de la información y la comunicación (TIC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1493" height="840" src="https://www.youtube.com/embed/nLMqcAUymGU" title="Tecnologías de la información y la comunicación (TIC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
 </template>
 

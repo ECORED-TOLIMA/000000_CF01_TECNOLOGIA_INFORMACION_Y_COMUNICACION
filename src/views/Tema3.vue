@@ -86,8 +86,8 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema3/img5.svg' alt="Imagen decorativa")
-        h5.text-center Distintos dispositivos de almacenamiento primario (RAM, ROM, CACHE)
-        p.text-center De lectura y escritura. Gestiona su ocupación y asignación para cada proceso.
+        h5.text-center Distintos dispositivos de almacenamiento primario
+        p.text-center (RAM, ROM, CACHE) son memorias de lectura y escritura las cuales gestionan su ocupación y asignación para cada proceso.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
