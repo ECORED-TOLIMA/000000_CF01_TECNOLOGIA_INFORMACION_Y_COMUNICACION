@@ -149,21 +149,8 @@
         h4.text-center Google
         p.text-center Aparece en el año 1998, convirtiéndose en uno de los más populares.
     p Asociado a estos cambios, entre los años 2002 y 2004, surgen las redes sociales o también conocidas como páginas sociales, que permiten el desarrollo del concepto de aldea virtual. Entre las redes sociales más conocidas, a lo largo de la historia, se tienen My Space, Friendster, Facebook y, hoy en día, Instagram.
-    p.mb-4 Para conocer más sobre la temática, se sugiere consultar los siguientes libros: 
-    
-    .tarjeta.color-adicional-2.BG01.p-3(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img15.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4 Recurso electrónico
-              p Fresno Chávez, C. (2018). ¿Cómo funciona Internet?. El Cid Editor. Consultar las páginas 33-35.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB36728&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,%C2%BFC%C3%B3mo%20funciona%20Int')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+    p Para conocer más sobre la temática, se sugiere consultar los siguientes libros: 
+
 
     separador
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")

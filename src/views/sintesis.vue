@@ -3,8 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p El buen uso de las herramientas TIC, sin importar el campo de aplicación, son una mejora en el tratamiento y análisis de la información, en la gestión de procesos y por ende, en la toma de decisiones. 
-    
-
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
@@ -15,9 +13,7 @@
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
-
 </template>
-
 <script>
 export default {
   name: 'Sintesis',
