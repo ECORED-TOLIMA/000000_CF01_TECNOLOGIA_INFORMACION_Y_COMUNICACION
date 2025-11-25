@@ -12,24 +12,12 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-12
         p Se define #[i software] como “el conjunto de componentes lógicos que hacen posible la realización de tareas específicas” (Carmona, 2017).
         p Tomando como base esta definición y su aplicación, será de gran utilidad el conocimiento y dominio de herramientas tecnológicas que permitan mejorar la productividad, a través de procesadores de texto, hojas electrónicas, presentaciones ejecutivas y bases de datos, junto con el conocimiento y dominio del ciberespacio y herramientas colaborativas.
     
-    .tarjeta.color-adicional-2.BG01.p-3.mb-5(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img2.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h5 Recurso electrónico
-              p Para conocer más sobre la temática, se sugiere consultar el libro: Ibarra Sixto, J. I. (2014). Sistema operativo, búsqueda de la información: Internet/intranet y correo electrónico. Editorial CEP. En dicho libro, acceder a las páginas 16-17 y verificar lo mencionado sobre el Resumen – Esquema del ordenador.  
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB50724&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,Manual%20sistema%20operativo,%20')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1	Clasificación

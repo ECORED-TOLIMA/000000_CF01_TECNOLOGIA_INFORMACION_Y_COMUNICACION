@@ -41,7 +41,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1	Introducción a la ofimática
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-3.col-md-6.mb-md-4
         figure
           img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen') 
@@ -50,19 +50,7 @@
           p En la oficina es necesario agilizar y automatizar los procesos, con el objetivo de mejorar la productividad y con ello, la competitividad. Por esta razón, la ofimática se convierte en factor primordial para la gestión de la información y la reducción de tiempos de respuesta en los procesos que antes se realizaban de manera manual.
           p Es importante conocer las herramientas informáticas más usadas en la oficina, tanto las de uso bajo licencia, como el caso de Office de la empresa Microsoft, como las de uso libre, como el caso de LibreOffice, OpenOffice, etc. 
 
-    .tarjeta.color-adicional-2.BG01.p-3.mb-4(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img3.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4 Recurso electrónico
-              p Para conocer más sobre la temática, se sugiere consultar el libro: Valentín López, G. M. (2015). Ofimática. Editorial CEP. En dicho libro, acceder a la página 32.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB51049&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2	Funcionalidad de los sistemas operativos
@@ -117,21 +105,9 @@
           .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #D1FFF8; border-radius: 15px;")
             img(src='@/assets/curso/temas/tema3/icono.svg' style="max-width: 32px; margin-left: -16px;")
             h3.col.ps-3.mb-0 C.	Gestionar la seguridad del sistema 
-    p.mb-5 Controlar la seguridad del sistema. En todo momento, comprobando que todos los sistemas funcionan correctamente. (Ibarra, 2013, pp. 26-27).
+    p.mb-0 Controlar la seguridad del sistema. En todo momento, comprobando que todos los sistemas funcionan correctamente. (Ibarra, 2013, pp. 26-27).
 
-    .tarjeta.color-adicional-2.BG01.p-3.mb-3(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img8.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4 Recurso electrónico
-              p Para conocer más sobre la temática, se sugiere consultar el libro: Valentín López, G. M. (2015). Ofimática. Editorial CEP. En dicho libro, acceder a la página 33.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB51049&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Herramientas ofimáticas
@@ -143,20 +119,6 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Las herramientas ofimáticas son un conjunto de programas, aplicaciones y servicios digitales diseñados para facilitar, automatizar y optimizar las tareas administrativas, productivas y de comunicación en entornos laborales, académicos y personales. Estas herramientas permiten crear, editar, organizar, compartir y almacenar información digital de manera eficiente, contribuyendo a mejorar la productividad, la colaboración y la gestión de la información. Para su estudio se recomienda la metodología de trabajo de la autora María Remedios Naranjo González, enfocada en procesos de trabajo con énfasis en la formación para el empleo.
 
-
-    .tarjeta.color-adicional-2.BG01.p-3.mb-5(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img10.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4 Recurso electrónico
-              p Para conocer más sobre la temática, se sugiere consultar el libro completo: Naranjo González, M. R. (2010). Manual: ofimática básica para formación continua. Formación para el empleo. Editorial CEP.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB50987&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,Manual:%20ofim%C3%A1tica%20b%C3%')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .cajon.color-primario.p-4
@@ -187,23 +149,9 @@
         h4.text-center Google
         p.text-center Aparece en el año 1998, convirtiéndose en uno de los más populares.
     p Asociado a estos cambios, entre los años 2002 y 2004, surgen las redes sociales o también conocidas como páginas sociales, que permiten el desarrollo del concepto de aldea virtual. Entre las redes sociales más conocidas, a lo largo de la historia, se tienen My Space, Friendster, Facebook y, hoy en día, Instagram.
-    p.mb-5 Para conocer más sobre la temática, se sugiere consultar los siguientes libros: 
-
-    .tarjeta.color-adicional-2.BG01.p-3.mb-4(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img14.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4 Recurso electrónico
-              p Ladrón de Guevara, M. A. (2018). Sistema operativo, búsqueda de la información: internet/intranet y correo electrónico UF0319 (2a. ed.). Editorial Tutor Formación. Consultar las páginas 101-106.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB44263&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,Sistema%20operativo,%20b%C3%BAsq')" target="_blank")
-                span Enlace web
-                i.fas.fa-file-code
+    p.mb-4 Para conocer más sobre la temática, se sugiere consultar los siguientes libros: 
     
-    .tarjeta.color-adicional-2.BG01.p-3.mb-4(data-aos="fade-right")
+    .tarjeta.color-adicional-2.BG01.p-3(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema3/img15.svg")
